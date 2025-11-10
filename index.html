@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editkaro.in | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Editkaro<span>.in</span></h1>
+    <p>Creative Agency for Social Media Marketing & Video Editing</p>
+  </header>
+
+  <section class="filter-section">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="short">Short Form</button>
+    <button class="filter-btn" data-category="long">Long Form</button>
+    <button class="filter-btn" data-category="gaming">Gaming</button>
+    <button class="filter-btn" data-category="football">Football</button>
+    <button class="filter-btn" data-category="ads">Ads</button>
+    <button class="filter-btn" data-category="documentary">Documentary</button>
+    <button class="filter-btn" data-category="anime">Anime</button>
+    <button class="filter-btn" data-category="color">Color Grading</button>
+  </section>
+
+  <section class="video-gallery">
+ <!-- 1. Short Form -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/3141210/3141210-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Short Form Edit</h3>
+    </div>
+
+    <!-- 2. Long Form -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/3141210/3141210-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Long Form Edit</h3>
+    </div>
+
+    <!-- 3. Gaming -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/6021930/6021930-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Gaming Montage</h3>
+    </div>
+
+    <!-- 4. Football -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/6021930/6021930-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Football Highlight</h3>
+    </div>
+
+    <!-- 5. Ads -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/3141210/3141210-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>E-commerce Ad</h3>
+    </div>
+
+    <!-- 6. Documentary -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/857195/857195-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Documentary Style</h3>
+    </div>
+
+    <!-- 7. Anime -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/857195/857195-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Anime Edit</h3>
+    </div>
+
+    <!-- 8. Color Grading -->
+    <div class="media-card">
+      <video src="https://videos.pexels.com/video-files/6021930/6021930-hd_1280_720_25fps.mp4" muted loop></video>
+      <h3>Color Grading Showcase</h3>
+    </div>
+
+
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <div class="lightbox-content">
+      <video id="lightboxVideo" controls></video>
+      <img id="lightboxImg" alt="Preview" />
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Editkaro.in | Designed by You</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
